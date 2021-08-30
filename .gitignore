@@ -71,6 +71,8 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 [core] autocrlf = false [filter "lfs"] required = true clean = git-lfs clean -- %f smudge = git-lfs smudge -- %f process = git-lfs filter-process
+abdesign/Temp
+abdesign/Library
 abdesign/Temp/workerlic
 abdesign/Library/AnnotationManager
 abdesign/Library/APIUpdater/project-dependencies.graph
