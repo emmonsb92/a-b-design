@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 244138840}
   - component: {fileID: 244138839}
   - component: {fileID: 244138838}
+  - component: {fileID: 244138843}
   m_Layer: 0
   m_Name: Cone
   m_TagString: Untagged
@@ -150,11 +151,11 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 244138837}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 645e7cbfeaad6254cbf6fedfa74ff845, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 820133811}
 --- !u!33 &244138839
@@ -1945,13 +1946,29 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 244138837}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.51, y: -2.7014096, z: 0.07726219}
+  m_LocalRotation: {x: -0.30042478, y: -0, z: -0, w: 0.95380557}
+  m_LocalPosition: {x: 3.51, y: 11.89, z: 5.47}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -34.966, y: 0, z: 0}
+--- !u!54 &244138843
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244138837}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!43 &820133811
 Mesh:
   m_ObjectHideFlags: 0
@@ -2304,6 +2321,7 @@ GameObject:
   - component: {fileID: 1657370319}
   - component: {fileID: 1657370318}
   - component: {fileID: 1657370317}
+  - component: {fileID: 1657370321}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -2318,7 +2336,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1657370316}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 645e7cbfeaad6254cbf6fedfa74ff845, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -2381,12 +2399,28 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1657370316}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.009, y: 0.85, z: -6.677}
+  m_LocalPosition: {x: 0.009, y: 3.13, z: -6.677}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1657370321
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657370316}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &2041511492
 GameObject:
   m_ObjectHideFlags: 0
